@@ -1,9 +1,9 @@
 # Fix to the error when using a neovim distro in termux
 Error:
-```
-lua-language-server failed to install
+`
+lua-language-server failed to install <br />
 stylua failed to install
-```
+`
 
 This script aims to fix this issue by simply adding a
 soft link to the actual binaries of lua-language-server
@@ -13,11 +13,15 @@ and stylua provided by termux's apt/pkg.
 Make sure to install the `lua-language-server` and `stylua`
 from pkg
 
-`pkg update && pkg upgrade`
+```bash
+pkg update && pkg upgrade
+```
 
 Then:
 
-`pkg install lua-language-server stylua`
+```bash
+pkg install lua-language-server stylua
+```
 
 Then:
 You can either run the fix.sh file or copy and paste the commands line by line
