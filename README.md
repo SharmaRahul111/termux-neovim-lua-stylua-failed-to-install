@@ -1,9 +1,7 @@
 # Fix to the error when using a neovim distro in termux
 Error:
-`
-lua-language-server failed to install <br />
-stylua failed to install
-`
+`lua-language-server failed to install` <br />
+`stylua failed to install`
 
 This script aims to fix this issue by simply adding a
 soft link to the actual binaries of lua-language-server
