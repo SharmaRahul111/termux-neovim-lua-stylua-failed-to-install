@@ -12,9 +12,13 @@ and stylua provided by termux's apt/pkg.
 ## Usage:
 Make sure to install the `lua-language-server` and `stylua`
 from pkg
+
 `pkg update && pkg upgrade`
+
 Then:
+
 `pkg install lua-language-server stylua`
+
 Then:
 You can either run the fix.sh file or copy and paste the commands line by line
 
